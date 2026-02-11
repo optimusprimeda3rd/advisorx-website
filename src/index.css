@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #050810; /* The new Blue-Black */
+  color: white;
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Premium glass effect with a blue-black tint */
+.glass {
+  background: rgba(10, 17, 32, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 102, 255, 0.1);
+}
