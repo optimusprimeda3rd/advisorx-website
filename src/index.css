@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 :root {
-  background-color: #050810; /* The new Blue-Black */
+  background-color: #050810;
   color: white;
   color-scheme: dark;
 }
@@ -14,9 +14,11 @@ body {
   overflow-x: hidden;
 }
 
-/* Premium glass effect with a blue-black tint */
 .glass {
   background: rgba(10, 17, 32, 0.85);
   backdrop-filter: blur(16px);
   border: 1px solid rgba(0, 102, 255, 0.1);
+width: 95%;          
+  max-width: 1200px;    
+  margin: 0 auto;   
 }

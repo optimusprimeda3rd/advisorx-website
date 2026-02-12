@@ -16,8 +16,7 @@ const FadeIn = ({ children, delay = 0 }) => (
 export default function AdvisorX() {
   return (
     <div className="min-h-screen bg-brand-black text-white selection:bg-brand-blue selection:text-white">
-      
-      {/* NAVIGATION */}
+
       <nav className="fixed w-full z-50 glass border-b border-brand-blue/10 px-8 py-6">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <img src="/logo.png" alt="AdvisorX Logo" className="h-7 w-auto object-contain" />
@@ -29,9 +28,7 @@ export default function AdvisorX() {
         </div>
       </nav>
 
-      {/* HERO - PURE DOMINANCE */}
       <header className="relative min-h-screen flex items-center pt-20 px-8">
-        {/* The Blue-Black Radial Depth */}
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_-20%,#0066FF22_0%,#050810_60%)] -z-10" />
         
         <div className="max-w-7xl mx-auto w-full">
@@ -65,7 +62,6 @@ export default function AdvisorX() {
         </div>
       </header>
 
-      {/* PHILOSOPHY - WIDE & CLEAN */}
       <section id="about" className="py-40 px-8 bg-brand-navy/30 border-y border-brand-blue/5">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-32 items-center">
           <FadeIn>
@@ -93,7 +89,6 @@ export default function AdvisorX() {
         </div>
       </section>
 
-      {/* STATS - DOMINATING NUMBERS */}
       <section id="ecosystem" className="py-32 px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-12">
@@ -111,8 +106,6 @@ export default function AdvisorX() {
           </div>
         </div>
       </section>
-
-      {/* FOOTER - THE PREMIUM FINISH */}
       <footer id="contact" className="pt-40 pb-10 px-8 bg-brand-black">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-20 mb-40">
@@ -126,10 +119,9 @@ export default function AdvisorX() {
             
             <div className="space-y-8">
               <h4 className="text-[10px] font-bold tracking-[0.4em] text-brand-blue uppercase">Contact</h4>
-              <a href="mailto:advisorxgrowth@gmail.com" className="block text-2xl font-bold hover:text-brand-blue transition-colors underline decoration-brand-blue/30 underline-offset-8">
-                advisorxgrowth@gmail.com
+              <a href="mailto:hi@advisorxgrowth.com" className="block text-2xl font-bold hover:text-brand-blue transition-colors underline decoration-brand-blue/30 underline-offset-8">
+                hi@advisorxgrowth.com
               </a>
-              <p className="text-white/40 text-sm font-bold uppercase tracking-widest">[add contact number]</p>
             </div>
 
             <div className="space-y-8">

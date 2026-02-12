@@ -8,10 +8,9 @@ export default {
     extend: {
       colors: {
         brand: {
-          // This is the 20% blue-black (Midnight)
-          black: "#050810",      
-          navy: "#0A1120",       // Slightly lighter blue-black for cards
-          blue: "#0066FF",       // Your Logo Blue
+          black: "#080d1a",      
+          navy: "#0A1120",      
+          blue: "#0066FF",       
           gray: "#94A3B8",
         }
       },
