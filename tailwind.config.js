@@ -1,23 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
         brand: {
-          black: "#080d1a",      
-          navy: "#0A1120",      
+          black: "#050810",      // 20% Blue-Black
+          navy: "#0A1120",       
           blue: "#0066FF",       
-          gray: "#94A3B8",
+          gray: "#94A3B8",       
+          lightBg: "#F8FAFC",    
         }
       },
-      fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-      },
+      borderRadius: {
+        'premium': '16px',       
+      }
     },
   },
   plugins: [],
-}   
+}

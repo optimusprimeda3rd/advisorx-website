@@ -3,22 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  background-color: #050810;
-  color: white;
-  color-scheme: dark;
-}
-
-body {
-  font-family: 'Inter', sans-serif;
-  overflow-x: hidden;
-}
+:root { transition: background-color 0.3s ease, color 0.3s ease; }
+.dark { background-color: #050810; color: white; }
+body { font-family: 'Inter', sans-serif; @apply bg-brand-lightBg dark:bg-brand-black text-slate-900 dark:text-white; }
 
 .glass {
-  background: rgba(10, 17, 32, 0.85);
-  backdrop-filter: blur(16px);
-  border: 1px solid rgba(0, 102, 255, 0.1);
-width: 95%;          
-  max-width: 1200px;    
-  margin: 0 auto;   
+  @apply bg-white/80 dark:bg-brand-navy/80 backdrop-blur-md border-b border-slate-200 dark:border-brand-blue/10;
 }
